@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c04_Rakamlar_Toplami", "c04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c05_1-10_Arasi_Sayilarin_Toplami", "c05_1-10_Arasi_Sayilarin_Toplami\c05_1-10_Arasi_Sayilarin_Toplami.csproj", "{3E1BB154-1DA2-4CF9-BBEC-590F7557BFEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tek_sayilar_toplami", "Tek_sayilar_toplami\Tek_sayilar_toplami.csproj", "{4F04D199-C91B-468D-AFB3-5083640CB700}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c06_Tek_sayilar_toplami", "Tek_sayilar_toplami\c06_Tek_sayilar_toplami.csproj", "{4F04D199-C91B-468D-AFB3-5083640CB700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c07_cift_sayilarin_toplami", "c07_cift_sayilarin_toplami\c07_cift_sayilarin_toplami.csproj", "{446156A4-0BEA-4BA4-A6F4-0F62A0CA0130}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4F04D199-C91B-468D-AFB3-5083640CB700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F04D199-C91B-468D-AFB3-5083640CB700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F04D199-C91B-468D-AFB3-5083640CB700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446156A4-0BEA-4BA4-A6F4-0F62A0CA0130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446156A4-0BEA-4BA4-A6F4-0F62A0CA0130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446156A4-0BEA-4BA4-A6F4-0F62A0CA0130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446156A4-0BEA-4BA4-A6F4-0F62A0CA0130}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
