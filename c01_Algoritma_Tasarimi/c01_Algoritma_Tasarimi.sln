@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c03_Asal_Sayi_Kontrol", "c0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c04_Rakamlar_Toplami", "c04_Rakamlar_Toplami\c04_Rakamlar_Toplami.csproj", "{DB7931D4-656D-421A-B306-EF4575D97A3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c05_1-10_Arasi_Sayilarin_Toplami", "c05_1-10_Arasi_Sayilarin_Toplami\c05_1-10_Arasi_Sayilarin_Toplami.csproj", "{3E1BB154-1DA2-4CF9-BBEC-590F7557BFEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DB7931D4-656D-421A-B306-EF4575D97A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB7931D4-656D-421A-B306-EF4575D97A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB7931D4-656D-421A-B306-EF4575D97A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1BB154-1DA2-4CF9-BBEC-590F7557BFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1BB154-1DA2-4CF9-BBEC-590F7557BFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1BB154-1DA2-4CF9-BBEC-590F7557BFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1BB154-1DA2-4CF9-BBEC-590F7557BFEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
