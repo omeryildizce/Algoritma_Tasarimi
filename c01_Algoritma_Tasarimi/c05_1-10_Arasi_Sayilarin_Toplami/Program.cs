@@ -14,6 +14,8 @@ namespace c05_1_10_Arasi_Sayilarin_Toplami
 
             int sayi = 10000;
             Toplam(sayi);
+
+
         }
 
         private static void Toplam(int sayi)
