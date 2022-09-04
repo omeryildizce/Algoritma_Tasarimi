@@ -9,6 +9,11 @@ namespace c16_dizi_sinifi
 {
     public class Dizi
     {
+        /// <summary>
+        /// Tek boyutlu dizi oluşturmak için kullanılan fonksiyondur
+        /// </summary>
+        /// <param name="limit">dizinin uzunluğunu belirtir.</param>
+        /// <returns>Belirtilen Uzunlukta rastgele sayilardan oluşmuş diziyi döndürür.</returns>
         public int[] Olustur(int limit)
         {
             int[] sayilar = new int[limit];
@@ -22,7 +27,11 @@ namespace c16_dizi_sinifi
             Console.WriteLine();
             return sayilar;
         }
-
+        /// <summary>
+        /// Parametre olarak aldığı dizideki en büyük elemanı döndürür.
+        /// </summary>
+        /// <param name="dizi"></param>
+        /// <returns></returns>
         public static int EnBuyuk(int[] dizi)
         {
             int enBuyuk = dizi[0];
@@ -37,6 +46,11 @@ namespace c16_dizi_sinifi
 
             return enBuyuk;
         }
+        /// <summary>
+        /// Parametre olarak aldığı dizideki en küçük elemanı döndürür.
+        /// </summary>
+        /// <param name="dizi"></param>
+        /// <returns></returns>
         public static int EnKucuk(int[] dizi)
         {
             int enKucuk = dizi[0];
@@ -50,6 +64,21 @@ namespace c16_dizi_sinifi
             }
 
             return enKucuk;
+        }
+        /// <summary>
+        /// Parametre olarak aldığı dizinin aritmetik ortalamasını döndürür.
+        /// </summary>
+        /// <param name="X">Dizi</param>
+        /// <returns>Aritmetik Ortalama</returns>
+        public static double AritmetikOrtalama(int[] X)
+        { 
+            double toplam = 0;
+
+            for(int i = 0; i < X.Length; i++)
+            {
+                toplam += X[i];
+            }
+            return toplam / X.Length;
         }
     }
 }
