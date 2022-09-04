@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c15_dizi_eleman_bul", "c15_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c16_dizi_sinifi", "c16_dizi_sinifi\c16_dizi_sinifi.csproj", "{705007B8-6F09-42FD-BC6D-FAF31534C73F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c17_char", "c17_char\c17_char.csproj", "{F4AA558C-EBD4-4B35-A002-8D47B09E5CC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{705007B8-6F09-42FD-BC6D-FAF31534C73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{705007B8-6F09-42FD-BC6D-FAF31534C73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{705007B8-6F09-42FD-BC6D-FAF31534C73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4AA558C-EBD4-4B35-A002-8D47B09E5CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AA558C-EBD4-4B35-A002-8D47B09E5CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AA558C-EBD4-4B35-A002-8D47B09E5CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AA558C-EBD4-4B35-A002-8D47B09E5CC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
