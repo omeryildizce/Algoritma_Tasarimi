@@ -97,5 +97,93 @@ namespace c16_dizi_sinifi
             } 
             return Math.Sqrt(toplam / (dizi.Length - 1));
         }
+        /// <summary>
+        /// Bir dizideki tek sayıların sayısını döndürür.
+        /// </summary>
+        /// <param name="dizi"></param>
+        /// <returns></returns>
+        public int TekSayilarinSayisi(int[] dizi)
+        {
+            int tekSayilarinSayisi = 0;
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                if (dizi[i] % 2 == 1)
+                {
+                    tekSayilarinSayisi++;
+                }
+            }
+            return tekSayilarinSayisi;
+        }
+        /// <summary>
+        /// Bir dizideki çift sayıların sayısını döndürür.
+        /// </summary>
+        /// <param name="dizi"></param>
+        /// <returns></returns>
+        public int CiftSayilarinSayisi(int[] dizi)
+        {
+            int ciftSayilarinSayisi = 0;
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                if (dizi[i] % 2 == 0)
+                {
+                    ciftSayilarinSayisi++;
+                }
+            }
+            return ciftSayilarinSayisi;
+        }
+        /// <summary>
+        /// Bir dizideki tek sayılardan yeni bir dizi oluşturur.
+        /// </summary>
+        /// <param name="dizi"></param>
+        /// <returns>Tek sayılardan oluşan dizi</returns>
+        public int[] TekDiziOlustur(int[] dizi)
+        {
+            int diziBoyutu = TekSayilarinSayisi(dizi);
+            int[] tekDizi = new int[diziBoyutu];
+            int j = 0;
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                if (dizi[i] % 2 == 1)
+                {
+                    tekDizi[j] = dizi[i];
+                    j++;
+                }
+            }
+            return tekDizi;
+        }
+        /// <summary>
+        /// Bir dizideki çift sayılardan yeni bir dizi oluşturur.
+        /// </summary>
+        /// <param name="dizi"></param>
+        /// <returns>Çift sayılardan oluşan dizi</returns>
+        public int[] CiftDiziOlustur(int[] dizi)
+        {
+            int diziBoyutu = CiftSayilarinSayisi(dizi);
+            int[] ciftDizi = new int[diziBoyutu];
+            int j = 0;
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                if (dizi[i] % 2 == 0)
+                {
+                    ciftDizi[j] = dizi[i];
+                    j++;
+                }
+            }
+            return ciftDizi;
+        }
+        /// <summary>
+        /// Parametre olarak aldığı diziyi ekrana yazdırır.
+        /// </summary>
+        /// <param name="dizi"></param>
+        public static void yazdir(int[] dizi)
+        {
+            Console.WriteLine();
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                Console.Write("{0,4}", dizi[i]);
+            }
+            Console.WriteLine();
+        }
+
     }
 }
