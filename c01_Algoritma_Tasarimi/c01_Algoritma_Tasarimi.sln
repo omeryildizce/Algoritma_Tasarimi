@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c17_char", "c17_char\c17_ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c18_string", "c18_string\c18_string.csproj", "{D920B4AA-F301-4928-A20B-5D9D375049B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c19_string_fonksiyonlari", "c19_string_fonksiyonlari\c19_string_fonksiyonlari.csproj", "{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{D920B4AA-F301-4928-A20B-5D9D375049B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D920B4AA-F301-4928-A20B-5D9D375049B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D920B4AA-F301-4928-A20B-5D9D375049B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
