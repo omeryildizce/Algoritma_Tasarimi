@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c13_for_IV", "c13_for_IV\c1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c14_tek_boyutlu_dizi", "c14_tek_boyutlu_dizi\c14_tek_boyutlu_dizi.csproj", "{1E049AA1-BD3F-445F-B535-AEA7175AC363}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c15_dizi_eleman_bul", "c15_dizi_eleman_bul\c15_dizi_eleman_bul.csproj", "{5F117A2A-ED43-4632-958B-84B24447B453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{1E049AA1-BD3F-445F-B535-AEA7175AC363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E049AA1-BD3F-445F-B535-AEA7175AC363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E049AA1-BD3F-445F-B535-AEA7175AC363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F117A2A-ED43-4632-958B-84B24447B453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F117A2A-ED43-4632-958B-84B24447B453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F117A2A-ED43-4632-958B-84B24447B453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F117A2A-ED43-4632-958B-84B24447B453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
