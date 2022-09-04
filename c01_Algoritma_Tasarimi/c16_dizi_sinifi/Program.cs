@@ -17,7 +17,9 @@ namespace c16_dizi_sinifi
 
             //EnBuyukEnKucuk(X);
 
-            AritmetikOrtalama(X);
+            //AritmetikOrtalama(X);
+
+            Console.WriteLine("Dizinin standart sapması: {0,5}", Dizi.StandartSapma(X));
 
         }
 

@@ -80,5 +80,22 @@ namespace c16_dizi_sinifi
             }
             return toplam / X.Length;
         }
+        /// <summary>
+        /// Parametre olarak aldığı dizinin standart sapmasını döndürür.
+        /// </summary>
+        /// <param name="dizi"></param>
+        /// <returns>Standart sapma</returns>
+        public static double StandartSapma(int[] dizi)
+        {
+            double aritmetikOrtalama = AritmetikOrtalama(dizi);
+            double toplam = 0;
+            double fark = 0;
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                fark = (dizi[i] - aritmetikOrtalama) ;
+                toplam += fark * fark;
+            } 
+            return Math.Sqrt(toplam / (dizi.Length - 1));
+        }
     }
 }
