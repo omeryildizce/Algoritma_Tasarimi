@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c14_tek_boyutlu_dizi", "c14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c15_dizi_eleman_bul", "c15_dizi_eleman_bul\c15_dizi_eleman_bul.csproj", "{5F117A2A-ED43-4632-958B-84B24447B453}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c16_dizi_sinifi", "c16_dizi_sinifi\c16_dizi_sinifi.csproj", "{705007B8-6F09-42FD-BC6D-FAF31534C73F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{5F117A2A-ED43-4632-958B-84B24447B453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F117A2A-ED43-4632-958B-84B24447B453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F117A2A-ED43-4632-958B-84B24447B453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705007B8-6F09-42FD-BC6D-FAF31534C73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705007B8-6F09-42FD-BC6D-FAF31534C73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705007B8-6F09-42FD-BC6D-FAF31534C73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705007B8-6F09-42FD-BC6D-FAF31534C73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
