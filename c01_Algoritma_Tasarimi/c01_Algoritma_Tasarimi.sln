@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c20_okek_obeb", "c20_okek_o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c21_String_to_Int_Array", "c21_String_to_Int_Array\c21_String_to_Int_Array.csproj", "{B45CA35E-C777-45D7-83B4-BD37478AA653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c22_sesli_harf_sayisi_bulma", "c22_sesli_harf_sayisi_bulma\c22_sesli_harf_sayisi_bulma.csproj", "{D5D5B639-CF52-4467-89AF-2044C09DC3E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{B45CA35E-C777-45D7-83B4-BD37478AA653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B45CA35E-C777-45D7-83B4-BD37478AA653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B45CA35E-C777-45D7-83B4-BD37478AA653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D5B639-CF52-4467-89AF-2044C09DC3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D5B639-CF52-4467-89AF-2044C09DC3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D5B639-CF52-4467-89AF-2044C09DC3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D5B639-CF52-4467-89AF-2044C09DC3E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
