@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Tek_sayilar_toplami")]
+[assembly: AssemblyTitle("c21_String_to_Int_Array")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Tek_sayilar_toplami")]
+[assembly: AssemblyProduct("c21_String_to_Int_Array")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4f04d199-c91b-468d-afb3-5083640cb700")]
+[assembly: Guid("b45ca35e-c777-45d7-83b4-bd37478aa653")]
 
 // Version information for an assembly consists of the following four values:
 //

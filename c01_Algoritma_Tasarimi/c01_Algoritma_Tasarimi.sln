@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c18_string", "c18_string\c1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c19_string_fonksiyonlari", "c19_string_fonksiyonlari\c19_string_fonksiyonlari.csproj", "{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c20_okek_obeb", "c20_okek_obeb\c20_okek_obeb.csproj", "{A98250B6-6378-4341-851E-D62E846B7095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c21_String_to_Int_Array", "c21_String_to_Int_Array\c21_String_to_Int_Array.csproj", "{B45CA35E-C777-45D7-83B4-BD37478AA653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B95B2AE5-79F3-4B22-BE7E-2443B5041C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98250B6-6378-4341-851E-D62E846B7095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98250B6-6378-4341-851E-D62E846B7095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98250B6-6378-4341-851E-D62E846B7095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98250B6-6378-4341-851E-D62E846B7095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45CA35E-C777-45D7-83B4-BD37478AA653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45CA35E-C777-45D7-83B4-BD37478AA653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45CA35E-C777-45D7-83B4-BD37478AA653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45CA35E-C777-45D7-83B4-BD37478AA653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F04D199-C91B-468D-AFB3-5083640CB700}</ProjectGuid>
+    <ProjectGuid>{A98250B6-6378-4341-851E-D62E846B7095}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tek_sayilar_toplami</RootNamespace>
-    <AssemblyName>Tek_sayilar_toplami</AssemblyName>
+    <RootNamespace>c20_okek_obeb</RootNamespace>
+    <AssemblyName>c20_okek_obeb</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hesapla.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tek_Sayi_Topla.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
