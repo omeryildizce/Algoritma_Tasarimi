@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c03_Modelleme
 {
-    public class Arac
+    public class Arac : Tasit
     {
         #region Fields değişkenler
         private string marka, model, renk;
@@ -37,6 +37,20 @@ namespace c03_Modelleme
         #region Methods
         public void Calistir() => Console.WriteLine("Araç çalıştı!");
         public void Durdur() => Console.WriteLine("Araç durdu!");
+        public override string ToString()
+        {
+            Console.WriteLine(new string('-', 30));
+            Console.WriteLine($"{Marka}");
+            Console.WriteLine($"{Model}");
+            Console.WriteLine($"{Renk}");
+            Console.WriteLine($"{Yil}");
+            Console.WriteLine($"{Motor}");
+            Console.WriteLine($"{Hacim}");
+            Console.WriteLine();
+            return Marka + " " + Model;
+        }
+
         #endregion
+
     }
 }

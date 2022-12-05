@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c02_Extension methods", "c0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c03_Modelleme", "c03_Modelleme\c03_Modelleme.csproj", "{A6ED0F5C-FCE6-4460-9D00-DD3CDDD91C07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c04_Virtual_Methods", "c04_Virtual_Methods\c04_Virtual_Methods.csproj", "{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A6ED0F5C-FCE6-4460-9D00-DD3CDDD91C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6ED0F5C-FCE6-4460-9D00-DD3CDDD91C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6ED0F5C-FCE6-4460-9D00-DD3CDDD91C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
