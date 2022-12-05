@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c04_Virtual_Methods
 {
-    public class Pozisyon
+    public sealed class Pozisyon
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -14,7 +14,7 @@ namespace c04_Virtual_Methods
         public override string ToString() => 
             $"X : {X} - Y : {Y}";
     }
-    public class Boyut
+    public sealed class Boyut
     {
         public int Genislik { get; set; }
         public int Yukseklik { get; set; }
@@ -23,7 +23,7 @@ namespace c04_Virtual_Methods
             $"Genişlik : {Genislik} - Yükseklik : {Yukseklik}";
     }
 
-    public class Sekil
+    public abstract class Sekil
     {
         public Pozisyon Pozisyon { get; } = new Pozisyon();
         public Boyut Boyut { get;} = new Boyut();
@@ -34,5 +34,6 @@ namespace c04_Virtual_Methods
             Pozisyon.Y = pozisyon.Y;
             Console.WriteLine($"Taşındı: {Pozisyon}");
         }
+        public abstract void YenidenBoyutlandir(int genislik, int yukseklik);
     }
 }

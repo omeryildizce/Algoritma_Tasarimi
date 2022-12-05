@@ -14,5 +14,11 @@ namespace c04_Virtual_Methods
             Console.Write("Dikdörtgen ");
             base.Tasi(pozisyon);
         }
+
+        public override void YenidenBoyutlandir(int genislik, int yukseklik)
+        {
+            Boyut.Genislik = genislik;
+            Boyut.Yukseklik = yukseklik;
+        }
     }
 }

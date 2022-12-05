@@ -13,13 +13,24 @@ namespace c04_Virtual_Methods
         static void Main(string[] args)
         {
             // virtual_method();
+            // polymorph();
+            Sekil s1 = new Dikdortgen();
+            s1.Pozisyon.X = 50;
+            s1.Pozisyon.Y = 50;
+            s1.Boyut.Genislik = 100;
+            s1.Boyut.Yukseklik= 200;
+            SekilCiz(s1);
+        }
+
+        private static void polymorph()
+        {
             var r = new Elips();
             r.Pozisyon.X = 55;
             r.Pozisyon.Y = 25;
             r.Boyut.Genislik = 200;
             r.Boyut.Yukseklik = 100;
             SekilCiz(r);
-            r.Tasi(new Pozisyon { X=20, Y=30 });
+            r.Tasi(new Pozisyon { X = 20, Y = 30 });
             SekilCiz(r);
         }
 
@@ -31,7 +42,7 @@ namespace c04_Virtual_Methods
             r.Boyut.Genislik = 100;
             r.Boyut.Yukseklik = 50;
             r.Ciz();
-            var e = new Sekil();
+            var e = new Dikdortgen();
             e.Pozisyon.X = 23;
             e.Pozisyon.Y = 43;
             e.Boyut.Genislik = 100;
