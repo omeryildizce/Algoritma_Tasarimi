@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c03_Modelleme", "c03_Modell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c04_Virtual_Methods", "c04_Virtual_Methods\c04_Virtual_Methods.csproj", "{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c05_interface", "c05_interface\c05_interface.csproj", "{9832AA4E-D517-4193-A2EC-0E83F03F59E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCF2B487-4BDF-4C83-A78F-77394A6AA0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9832AA4E-D517-4193-A2EC-0E83F03F59E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9832AA4E-D517-4193-A2EC-0E83F03F59E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9832AA4E-D517-4193-A2EC-0E83F03F59E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9832AA4E-D517-4193-A2EC-0E83F03F59E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

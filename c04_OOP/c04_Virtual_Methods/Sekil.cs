@@ -25,6 +25,23 @@ namespace c04_Virtual_Methods
 
     public abstract class Sekil
     {
+        public Sekil()
+        {
+            Console.WriteLine("Base class -> constructor");
+        }
+        public Sekil(int genislik, int yukseklik, int x, int y)
+        { 
+            Boyut = new Boyut { 
+                Genislik = genislik,
+                Yukseklik= yukseklik
+            };
+            Pozisyon = new Pozisyon
+            {
+                X = x,
+                Y = y
+            };
+        }
+ 
         public Pozisyon Pozisyon { get; } = new Pozisyon();
         public Boyut Boyut { get;} = new Boyut();
         public virtual void Ciz() => Console.WriteLine($"Şekil {Pozisyon} - {Boyut}");

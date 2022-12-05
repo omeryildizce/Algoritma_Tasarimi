@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="c05_interface.Program">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="c05_interface.MevduatHesabi">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAECAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MevduatHesabi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="c05_interface.YatirimHesabi">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAECAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YatirimHesabi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="c05_interface.AktifHesap">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAECAAAAAAAAABAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>AktifHesap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="c05_interface.IBankaHesap">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAECAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBankaHesap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="c05_interface.ITransfer">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ITransfer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -14,11 +14,18 @@ namespace c04_Virtual_Methods
         {
             // virtual_method();
             // polymorph();
+            // abstract_sinif();
+            Sekil s1= new Dikdortgen(50,50,100,100);
+            SekilCiz(s1);
+        }   
+
+        private static void abstract_sinif()
+        {
             Sekil s1 = new Dikdortgen();
             s1.Pozisyon.X = 50;
             s1.Pozisyon.Y = 50;
             s1.Boyut.Genislik = 100;
-            s1.Boyut.Yukseklik= 200;
+            s1.Boyut.Yukseklik = 200;
             SekilCiz(s1);
         }
 

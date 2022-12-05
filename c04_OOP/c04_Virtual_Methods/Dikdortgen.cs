@@ -8,6 +8,16 @@ namespace c04_Virtual_Methods
 {
     public class Dikdortgen : Sekil
     {
+        public Dikdortgen()
+        {
+            Console.WriteLine("Derived class -> constructor");
+        }
+
+        public Dikdortgen(int genislik, int yukseklik, int x, int y) : base(genislik, yukseklik, x, y)
+        {
+            Console.WriteLine("Derived class -> ctor -4p");
+        }
+
         public override void Ciz() => Console.WriteLine($"Dikdörtgen {Pozisyon} - {Boyut}");
         public override void Tasi(Pozisyon pozisyon)
         {
